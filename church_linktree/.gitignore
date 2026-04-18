@@ -1,0 +1,10 @@
+node_modules/
+
+public/style.css
+
+.env
+
+.DS_Store
+Thumbs.db
+
+.vscode/
