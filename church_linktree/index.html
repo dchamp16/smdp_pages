@@ -35,7 +35,7 @@
         </h1>
 
         <a
-          href="https://maps.google.com/?q=St+Madeleine+de+Pazzi+Parish+Taylorsville+Utah"
+          href="https://maps.app.goo.gl/XinWHD9dXGY439Kr7"
           target="_blank"
           rel="noopener"
           class="inline-block text-sm text-stone-400 mt-1 tracking-wide italic hover:text-amber-600 transition-colors duration-200"
@@ -55,6 +55,131 @@
         <div class="mx-auto mt-4 h-px w-16 bg-amber-400 opacity-60"></div>
       </div>
       <!-- end HEADER -->
+      <!-- ===== SOCIAL LINKS SECTION ===== -->
+      <div class="w-full flex flex-col gap-3">
+        <!--
+      w-full     → takes full width of the parent wrapper
+      flex flex-col → stacks cards vertically
+      gap-3      → space between each card (0.75rem)
+    -->
+
+        <!-- Section label -->
+        <p class="text-xs text-stone-400 uppercase tracking-widest text-center">
+          Connect With Us
+        </p>
+        <!--
+        text-xs        → very small text
+        uppercase      → ALL CAPS
+        tracking-widest → very wide letter spacing — elegant label look
+      -->
+
+        <!-- ===== FACEBOOK ===== -->
+
+        <a
+          href="https://www.facebook.com/profile.php?id=61580202283712&mibextid=wwXlfr"
+          target="_blank"
+          rel="noopener"
+          class="flex items-center gap-4 bg-white border border-stone-100 rounded-2xl px-5 py-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
+        >
+          <!--
+        flex items-center  → icon, text, arrow sit in a horizontal row
+        gap-4              → space between the 3 parts
+        bg-white           → white card
+        border-stone-100   → very subtle light border
+        rounded-2xl        → nicely rounded corners
+        px-5 py-4          → inner padding
+        shadow-sm          → soft drop shadow
+        hover:shadow-md    → bigger shadow on hover
+        hover:-translate-y-0.5 → card floats up slightly on hover
+        transition-all     → all hover effects animate smoothly
+        duration-200       → 200ms animation speed
+      -->
+
+          <!-- Icon box -->
+          <div
+            class="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0"
+          >
+            <i class="fa-brands fa-facebook-f text-blue-600"></i>
+            <!--
+            fa-brands      → brand icon style (social media logos)
+            fa-facebook-f  → the Facebook "f" logo
+            text-blue-600  → Facebook blue color
+          --></div>
+
+          <!-- Text -->
+          <div class="flex-1">
+            <!-- flex-1 → this div grows to fill all available space
+                       pushing the arrow to the far right -->
+            <p class="text-xs text-stone-400 uppercase tracking-wider">
+              Social
+            </p>
+            <p
+              class="text-base font-semibold text-stone-700"
+              style="font-family: 'Cormorant Garamond', serif"
+            >
+              Facebook Page
+            </p>
+          </div>
+
+          <!-- Arrow -->
+          <i class="fa-solid fa-arrow-right text-amber-400 text-sm"></i>
+        </a>
+
+        <!-- ===== PARISH INSTAGRAM ===== -->
+
+        <a
+          href="https://www.instagram.com/smdptaylorsville/"
+          target="_blank"
+          rel="noopener"
+          class="flex items-center gap-4 bg-white border border-stone-100 rounded-2xl px-5 py-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
+        >
+          <div
+            class="w-10 h-10 rounded-xl bg-pink-50 flex items-center justify-center flex-shrink-0"
+          >
+            <i class="fa-brands fa-instagram text-pink-500"></i>
+          </div>
+          <div class="flex-1">
+            <p class="text-xs text-stone-400 uppercase tracking-wider">
+              Social
+            </p>
+            <p
+              class="text-base font-semibold text-stone-700"
+              style="font-family: 'Cormorant Garamond', serif"
+            >
+              Parish Instagram
+            </p>
+          </div>
+          <i class="fa-solid fa-arrow-right text-amber-400 text-sm"></i>
+        </a>
+
+        <!-- ===== YOUTH GROUP INSTAGRAM ===== -->
+
+        <a
+          href="https://www.instagram.com/samadepo_yg/"
+          target="_blank"
+          rel="noopener"
+          class="flex items-center gap-4 bg-white border border-stone-100 rounded-2xl px-5 py-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
+        >
+          <div
+            class="w-10 h-10 rounded-xl bg-purple-50 flex items-center justify-center flex-shrink-0"
+          >
+            <i class="fa-brands fa-instagram text-purple-500"></i>
+          </div>
+          <div class="flex-1">
+            <p class="text-xs text-stone-400 uppercase tracking-wider">
+              Youth Group
+            </p>
+            <p
+              class="text-base font-semibold text-stone-700"
+              style="font-family: 'Cormorant Garamond', serif"
+            >
+              SaMaDeP Youth
+            </p>
+          </div>
+          <i class="fa-solid fa-arrow-right text-amber-400 text-sm"></i>
+        </a>
+      </div>
+      <!-- end SOCIAL LINKS -->
     </div>
   </body>
 </html>
