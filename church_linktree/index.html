@@ -1,12 +1,324 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta http-equiv="refresh" content="0; url=/links.html">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="St. Martin De Porres Catholic Church - Taylorsville, Utah" />
+  <title>SMDP Taylorsville</title>
+  <link href="public/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,400&display=swap"
+    rel="stylesheet" />
 </head>
 
-<body>
-    <p>Redirecting… <a href="/links.html">Click here</a></p>
+<body class="min-h-screen bg-amber-50 flex items-center justify-center px-4 py-10">
+  <!-- ===== MAIN WRAPPER ===== -->
+  <div class="w-full max-w-sm flex flex-col items-center gap-6">
+    <!-- ===== HEADER ===== -->
+    <div class="text-center">
+      <i class="fa-solid fa-cross text-amber-600 text-3xl mb-3 block"></i>
+      <a href="https://www.stmartincatholicchurch.com/" target="_blank" rel="noopener"
+        style="font-family: 'Cormorant Garamond', serif"
+        class="text-3xl font-semibold text-stone-800 leading-tight hover:text-amber-600 transition-colors duration-200 block">
+        St Martin De Porres Catholic Church
+      </a>
+
+      <a href="https://maps.app.goo.gl/XinWHD9dXGY439Kr7" target="_blank" rel="noopener"
+        class="inline-block text-sm text-stone-400 mt-1 tracking-wide italic hover:text-amber-600 transition-colors duration-200"
+        style="font-family: 'Cormorant Garamond', serif">
+        <i class="fa-solid fa-location-dot text-xs mr-1"></i>
+        Taylorsville, Utah
+      </a>
+
+      <a href="tel:+18019682369"
+        class="block text-sm text-stone-400 mt-1 tracking-wide hover:text-amber-600 transition-colors duration-200">
+        <i class="fa-solid fa-phone text-xs mr-1"></i>
+        (801) 968-2369
+      </a>
+      <div class="mx-auto mt-4 h-px w-16 bg-amber-400 opacity-60"></div>
+    </div>
+    <!-- end HEADER -->
+    <!-- ===== SOCIAL LINKS SECTION ===== -->
+    <div class="w-full flex flex-col gap-3">
+      <!--
+      w-full     → takes full width of the parent wrapper
+      flex flex-col → stacks cards vertically
+      gap-3      → space between each card (0.75rem)
+    -->
+
+      <!-- Section label -->
+      <p class="text-xs text-stone-400 uppercase tracking-widest text-center">
+        Connect With Us
+      </p>
+      <!--
+        text-xs        → very small text
+        uppercase      → ALL CAPS
+        tracking-widest → very wide letter spacing — elegant label look
+      -->
+
+      <!-- ===== FACEBOOK ===== -->
+
+      <a href="https://www.facebook.com/profile.php?id=61580202283712&mibextid=wwXlfr" target="_blank" rel="noopener"
+        class="flex items-center gap-4 bg-white border border-stone-100 rounded-2xl px-5 py-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+        <!--
+        flex items-center  → icon, text, arrow sit in a horizontal row
+        gap-4              → space between the 3 parts
+        bg-white           → white card
+        border-stone-100   → very subtle light border
+        rounded-2xl        → nicely rounded corners
+        px-5 py-4          → inner padding
+        shadow-sm          → soft drop shadow
+        hover:shadow-md    → bigger shadow on hover
+        hover:-translate-y-0.5 → card floats up slightly on hover
+        transition-all     → all hover effects animate smoothly
+        duration-200       → 200ms animation speed
+      -->
+
+        <!-- Icon box -->
+        <div class="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0">
+          <i class="fa-brands fa-facebook-f text-blue-600"></i>
+          <!--
+            fa-brands      → brand icon style (social media logos)
+            fa-facebook-f  → the Facebook "f" logo
+            text-blue-600  → Facebook blue color
+          -->
+        </div>
+
+        <!-- Text -->
+        <div class="flex-1">
+          <!-- flex-1 → this div grows to fill all available space
+                       pushing the arrow to the far right -->
+          <p class="text-xs text-stone-400 uppercase tracking-wider">
+            Social
+          </p>
+          <p class="text-base font-semibold text-stone-700" style="font-family: 'Cormorant Garamond', serif">
+            Facebook Page
+          </p>
+        </div>
+
+        <!-- Arrow -->
+        <i class="fa-solid fa-arrow-right text-amber-400 text-sm"></i>
+      </a>
+
+      <!-- ===== PARISH INSTAGRAM ===== -->
+
+      <a href="https://www.instagram.com/smdptaylorsville/" target="_blank" rel="noopener"
+        class="flex items-center gap-4 bg-white border border-stone-100 rounded-2xl px-5 py-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+        <div class="w-10 h-10 rounded-xl bg-pink-50 flex items-center justify-center flex-shrink-0">
+          <i class="fa-brands fa-instagram text-pink-500"></i>
+        </div>
+        <div class="flex-1">
+          <p class="text-xs text-stone-400 uppercase tracking-wider">
+            Social
+          </p>
+          <p class="text-base font-semibold text-stone-700" style="font-family: 'Cormorant Garamond', serif">
+            Parish Instagram
+          </p>
+        </div>
+        <i class="fa-solid fa-arrow-right text-amber-400 text-sm"></i>
+      </a>
+
+      <!-- ===== YOUTH GROUP INSTAGRAM ===== -->
+
+      <a href="https://www.instagram.com/samadepo_yg/" target="_blank" rel="noopener"
+        class="flex items-center gap-4 bg-white border border-stone-100 rounded-2xl px-5 py-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+        <div class="w-10 h-10 rounded-xl bg-purple-50 flex items-center justify-center flex-shrink-0">
+          <i class="fa-brands fa-instagram text-purple-500"></i>
+        </div>
+        <div class="flex-1">
+          <p class="text-xs text-stone-400 uppercase tracking-wider">
+            Youth Group
+          </p>
+          <p class="text-base font-semibold text-stone-700" style="font-family: 'Cormorant Garamond', serif">
+            SaMaDeP Youth
+          </p>
+        </div>
+        <i class="fa-solid fa-arrow-right text-amber-400 text-sm"></i>
+      </a>
+    </div>
+    <!-- end SOCIAL LINKS -->
+
+    <!-- ===== GIVING SECTION ===== -->
+    <div class="w-full flex flex-col gap-3">
+      <!--
+      Same structure as social links section
+      w-full flex flex-col gap-3 → full width, vertical stack, spaced cards
+    -->
+
+      <!-- Section label -->
+      <p class="text-xs text-stone-400 uppercase tracking-widest text-center">
+        Support Our Parish
+      </p>
+
+      <!-- ===== SUNDAY OFFERTORY ===== -->
+
+      <a href="https://www.givecentral.org/customizable-online-giving/1250/event/28636" target="_blank" rel="noopener"
+        class="flex items-center gap-4 bg-emerald-50 border border-emerald-100 rounded-2xl px-5 py-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+        <!--
+        bg-emerald-50      → light green background — visually separates
+                             giving cards from social cards (white)
+        border-emerald-100 → subtle green border
+        Everything else same as social cards
+      -->
+
+        <div class="w-10 h-10 rounded-xl bg-emerald-100 flex items-center justify-center flex-shrink-0">
+          <i class="fa-solid fa-heart text-emerald-600"></i>
+          <!--
+            fa-solid fa-heart → solid heart icon
+            text-emerald-600  → green color — represents giving/generosity
+          -->
+        </div>
+        <div class="flex-1">
+          <p class="text-xs text-emerald-500 uppercase tracking-wider">
+            Weekly
+          </p>
+          <!--
+            text-emerald-500 → green label instead of stone
+                               keeps the green theme consistent
+          -->
+          <p class="text-base font-semibold text-emerald-800" style="font-family: 'Cormorant Garamond', serif">
+            Sunday Offertory
+          </p>
+        </div>
+        <i class="fa-solid fa-arrow-right text-emerald-400 text-sm"></i>
+        <!-- arrow is emerald green too — consistent with giving theme -->
+      </a>
+
+      <!-- ===== DIOCESAN DEVELOPMENT DRIVE ===== -->
+
+      <a href="https://www.givecentral.org/customizable-online-giving/1250/event/29544" target="_blank" rel="noopener"
+        class="flex items-center gap-4 bg-emerald-50 border border-emerald-100 rounded-2xl px-5 py-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+        <div class="w-10 h-10 rounded-xl bg-emerald-100 flex items-center justify-center flex-shrink-0">
+          <i class="fa-solid fa-hand-holding-heart text-emerald-600"></i>
+          <!--
+            fa-hand-holding-heart → hand holding a heart icon
+                                     perfect for diocesan giving/charity
+          -->
+        </div>
+        <div class="flex-1">
+          <p class="text-xs text-emerald-500 uppercase tracking-wider">
+            Diocese
+          </p>
+          <p class="text-base font-semibold text-emerald-800" style="font-family: 'Cormorant Garamond', serif">
+            Diocesan Development Drive
+          </p>
+        </div>
+        <i class="fa-solid fa-arrow-right text-emerald-400 text-sm"></i>
+      </a>
+
+      <!-- ===== BUILDING FUND ===== -->
+
+      <a href="https://www.givecentral.org/customizable-online-giving/1250/event/29543" target="_blank" rel="noopener"
+        class="flex items-center gap-4 bg-emerald-50 border border-emerald-100 rounded-2xl px-5 py-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+        <div class="w-10 h-10 rounded-xl bg-emerald-100 flex items-center justify-center flex-shrink-0">
+          <i class="fa-solid fa-church text-emerald-600"></i>
+          <!--
+            fa-solid fa-church → church building icon
+                                  fits perfectly for building fund!
+          -->
+        </div>
+        <div class="flex-1">
+          <p class="text-xs text-emerald-500 uppercase tracking-wider">
+            Fund
+          </p>
+          <p class="text-base font-semibold text-emerald-800" style="font-family: 'Cormorant Garamond', serif">
+            Building Fund
+          </p>
+        </div>
+        <i class="fa-solid fa-arrow-right text-emerald-400 text-sm"></i>
+      </a>
+
+      <!-- ===== PARISH ENDOWMENT ===== -->
+
+      <a href="https://dioslc.org/saint-martin-de-porres-catholic-church-endowments" target="_blank" rel="noopener"
+        class="flex items-center gap-4 bg-emerald-50 border border-emerald-100 rounded-2xl px-5 py-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+        <div class="w-10 h-10 rounded-xl bg-emerald-100 flex items-center justify-center flex-shrink-0">
+          <i class="fa-solid fa-seedling text-emerald-600"></i>
+          <!--
+            fa-seedling → represents growth and legacy
+                          perfect for an endowment fund
+          -->
+        </div>
+        <div class="flex-1">
+          <p class="text-xs text-emerald-500 uppercase tracking-wider">Legacy</p>
+          <p class="text-base font-semibold text-emerald-800" style="font-family: 'Cormorant Garamond', serif;">
+            Parish Endowment
+          </p>
+        </div>
+        <i class="fa-solid fa-arrow-right text-emerald-400 text-sm"></i>
+      </a>
+    </div>
+
+
+
+    <!-- end GIVING SECTION -->
+
+    <!-- ===== FOOTER / BIBLE VERSE ===== -->
+    <div class="text-center px-4 mt-2 pb-4">
+      <!--
+      text-center → centers all text
+      px-4        → horizontal padding so text doesn't touch edges
+      mt-2        → small top margin
+      pb-4        → bottom padding so content doesn't feel cramped
+    -->
+
+      <!-- Bible verse text -->
+      <!-- This starts as empty — verse.js will fill this in -->
+      <p id="verse-text" class="text-sm italic text-stone-500 leading-relaxed"
+        style="font-family: 'Cormorant Garamond', serif;">
+        Loading verse...
+      </p>
+      <!--
+        id="verse-text"   → verse.js uses this id to find and update this element
+        italic            → verse looks like a proper quote
+        text-stone-500    → medium gray — subtle, not distracting
+        leading-relaxed   → comfortable line height for multi-line verses
+        "Loading verse..."→ placeholder text while JS fetches the API
+      -->
+
+      <!-- Verse reference -->
+      <!-- Also empty — verse.js fills this too -->
+      <p id="verse-ref" class="text-xs text-stone-400 mt-2 tracking-wide">
+      </p>
+      <!--
+        id="verse-ref"  → verse.js targets this to write "— John 3:16"
+        text-xs         → smaller than the verse text
+        mt-2            → small space above the reference
+        tracking-wide   → slightly wider letter spacing
+      -->
+
+      <!-- Divider -->
+      <div class="mx-auto mt-4 mb-3 h-px w-12 bg-stone-200"></div>
+      <!--
+        same concept as header divider
+        but lighter color (stone-200) — less prominent in the footer
+        w-12 → slightly shorter than the header divider (w-16)
+      -->
+
+      <!-- Copyright -->
+      <p class="text-xs text-stone-300 tracking-wider uppercase">
+        © 2026 St. Martin De Porres Catholic Church
+      </p>
+      <!--
+        text-stone-300 → very light gray — least important text on the page
+        uppercase      → small caps feel
+        tracking-wider → spaced out letters
+      -->
+
+    </div>
+    <!-- end FOOTER -->
+
+  </div>
+  <!-- end MAIN WRAPPER -->
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script src="public/js/verse.js"></script>
+
+</body>
+
+</html>
+</div>
 </body>
 
 </html>
